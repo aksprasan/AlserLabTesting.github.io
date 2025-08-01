@@ -32,12 +32,17 @@
     });
 
     $(".main-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1500,
         items: 1,
-        dots: true,
-        loop: true,
+        dots: false,
+        loop: false,
         center: true,
+        mouseDrag: false,
+        touchDrag: false,
+        pullDrag: false,
+        freeDrag: false,
+        nav: false
     });
 
     $(".tranding-carousel").owlCarousel({
