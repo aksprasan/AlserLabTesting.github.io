@@ -5,13 +5,14 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #9A9DA2;
-  background-color: #EDEFF4;
+  color: #000000;
+  background-color: #ffffff;
 }
 a {
   color: #FFCC00;
   text-decoration: none;
   background-color: transparent;
+  
 }
 a:hover {
   color: #b38f00;
@@ -40,13 +41,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500 !important;
 }
 .text-white {
-  color: #fff !important;
+  color: #000000 !important;
 }
 .text-dark {
-  color: #1E2024 !important;
+  color: #000000 !important;
 }
 .bg-dark {
-  background-color: #1E2024 !important;
+  background-color: #ffffff !important;
 }
 .bg-white {
   background-color: #fff !important;
@@ -66,4 +67,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px;
   background: linear-gradient(to top, rgba(30, 32, 36, 0.9), rgba(30, 32, 36, 0));
 }
+
+ #header{
+
+
+color: black;
+
+ }
 /* --- End Inlined CSS --- */
